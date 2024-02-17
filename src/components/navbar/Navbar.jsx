@@ -14,7 +14,10 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbarContainer}>
-        <a className={styles.linkHome} href='/' >Carlos ortiz pari</a>
+        <span className={styles.nameContainer}>
+        <i className="bi bi-code-slash"></i> 
+        <a className={styles.linkHome} href='/' >Carlos ortiz </a>
+        </span>
 
         <img onClick={activeMenu} className={styles.menuBtn} src={openMenu ? closeMenuImg : menuImg} alt="" />
         
@@ -39,6 +42,10 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
+
+        <span>
+          <i className="bi bi-moon-fill"></i>
+        </span>
 
     </nav>
   )
