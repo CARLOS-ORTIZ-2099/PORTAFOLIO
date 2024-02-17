@@ -1,0 +1,13 @@
+.container {
+    background-color: rgb(61, 205, 32);
+    padding: 1rem;
+    margin: 20px;
+    
+}
+
+.title {
+    background-color: rgba(218, 59, 59, 0.7);
+    padding: 2rem;
+}
+
+

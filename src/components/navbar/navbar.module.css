@@ -1,0 +1,80 @@
+@import "../../vars.module.css";
+
+.navbarContainer{
+    background-color: rgb(28, 115, 238);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    height: 100px;
+}
+
+.menuBtn{
+    display: none;
+    cursor: pointer;
+}
+.linkHome{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu{
+    border: solid red 2px;
+}
+
+ .ulContainer{
+    display: flex;
+    align-items: center;
+    list-style: none;
+ }
+
+
+ .ulContainer li{
+    margin: 0 25px;
+ }
+
+ .ulContainer li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    transition: all ease-in-out .5s;
+ }
+ .ulContainer li a:hover {
+    color: rgb(209, 71, 117);
+    transition: all ease-in-out .5s;
+ }
+
+@media screen and (max-width:700px) {
+    .menu{
+        border: solid red 2px;
+        position: absolute;
+        right: 0;
+        top: 100px;
+        bottom: 0;
+        width: 70%;
+      /*   visibility: hidden; */
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0; /* Inicialmente invisible */
+        transition: visibility 0s, opacity 0.3s ease-in-out;
+      
+        
+    }
+    .ulContainer{
+       flex-direction: column;
+       justify-content: space-evenly;
+       border: solid green 2px;
+       height: 100%;
+     }
+
+   .menu.changeVisibility{
+       /*  visibility: visible; */
+        opacity: 1;
+        
+    }
+
+   
+    .menuBtn{
+        display: block;
+    } 
+}
+ 
