@@ -16,7 +16,11 @@ function App() {
   return (
     <div className={styles.App}>
       <Navbar/>
-     {/*  <Hero/>
+
+      <main id='main'>
+        <Hero/>
+      </main>
+     {/*  
       <About/>
       <Skills/>
       <Projects/>

@@ -13,10 +13,17 @@ export const Navbar = () => {
   }
 
   return (
-    <nav className={styles.navbarContainer}>
+   <header className={styles.header}>
+    
+      <nav className={styles.navbarContainer}>
         <span className={styles.nameContainer}>
         <i className="bi bi-code-slash"></i> 
         <a className={styles.linkHome} href='/' >Carlos ortiz </a>
+        </span>
+
+
+        <span className='theme'>
+          <i className="bi bi-moon-fill"></i>
         </span>
 
         <img onClick={activeMenu} className={styles.menuBtn} src={openMenu ? closeMenuImg : menuImg} alt="" />
@@ -41,13 +48,14 @@ export const Navbar = () => {
               <a href="#contact">contact</a>
             </li>
           </ul>
+          
         </div>
 
-        <span>
-          <i className="bi bi-moon-fill"></i>
-        </span>
+      
 
-    </nav>
+      </nav>
+
+   </header>
   )
 
 }
