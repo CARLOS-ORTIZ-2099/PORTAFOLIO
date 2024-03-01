@@ -1,10 +1,10 @@
-import styles from './hero.module.css'
-console.log(styles);
+import styles from './home.module.css'
+/* console.log(styles); */
 import avatar from '../../assets/images/home.png'
 
-export const Hero = () => {
+export const Home = () => {
   return (
-    <section id='home' className={styles.home}>
+    <section className={styles.home} id='home'>
         <div className={styles.homeContent}>
           <h3>hello, its me</h3>
           <h1>carlos eduardo ortiz</h1>

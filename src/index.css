@@ -1,10 +1,28 @@
+@import './vars.css';
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 html {
-  scroll-behavior: smooth;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+@media screen and (max-width:450px) { 
+  html {
+    font-size: 50%;
+  }
 }
