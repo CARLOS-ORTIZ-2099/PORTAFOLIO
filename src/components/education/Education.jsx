@@ -24,34 +24,139 @@ import img9 from '../../assets/certifications/react-udemy.jpg'
 export const Education = () => {
   return (
     <section id="education">
+
         <div className={styles.hero}>
             <h1>Mis Estudios</h1>
         </div>
 
         <div className={styles.container}>
             
-            <div className={styles.evento}>
-                <div className={styles.foto} >
-                    <img src={img1} alt=""/>
+            <div data-aos = "fade-up" className={styles.evento}>
+                <div  >
+                    <a className={styles.btn} href="#">see more</a>
                 </div>
-                <h3 className={styles.fecha}>9 de Enero de 2021</h3>
+               <div className={styles.texto}>
+                    <time className={styles.fecha}>3 de Marzo de 2022</time>
+                    <h3 className={styles.curso}>Curso Html</h3>
+                    <p className={styles.institucion}>Ed team</p>
+               </div>
             </div>
 
-            <div className={styles.evento}>
+            <div data-aos = "fade-up" className={styles.evento}>
+                <div  >
+                    <a className={styles.btn} href="#">see more</a>
+                </div>
+               <div className={styles.texto}>
+                    <time className={styles.fecha}>19 de Noviembre de 2022</time>
+                    <h3 className={styles.curso}>Curso Js</h3>
+                    <p className={styles.institucion}>Ed team</p>
+               </div>
+            </div>
+
+
+
+            <div data-aos = "fade-up" className={styles.evento}>
+                <div  >
+                    <a className={styles.btn} href="#">see more</a>
+                </div>
+               <div className={styles.texto}>
+                    <time className={styles.fecha}>8 de Febrero de 2023</time>
+                    <h3 className={styles.curso}>Curso Css</h3>
+                    <p className={styles.institucion}>Ed team</p>
+               </div>
+            </div>
+
+           
+            <div data-aos = "fade-up" className={styles.evento}>
+                <div  >
+                    <a className={styles.btn} href="#">see more</a>
+                </div>
+               <div className={styles.texto}>
+                    <time className={styles.fecha}>24 de marzo de 2023</time>
+                    <h3 className={styles.curso}>Curso Poo Js</h3>
+                    <p className={styles.institucion}>Ed team</p>
+               </div>
+            </div>
+
+            <div data-aos = "fade-up" className={styles.evento}>
+                <div  >
+                    <a className={styles.btn} href="#">see more</a>
+                </div>
+               <div className={styles.texto}>
+                    <time className={styles.fecha}>27 de Julio de 2023</time>
+                    <h3 className={styles.curso}>Curso React</h3>
+                    <p className={styles.institucion}>Ed team</p>
+               </div>
+            </div>
+
+            <div data-aos = "fade-up" className={styles.evento}>
+                <div  >
+                    <a className={styles.btn} href="#">see more</a>
+                </div>
+               <div className={styles.texto}>
+                    <time className={styles.fecha}>19 de Agosto de 2023</time>
+                    <h3 className={styles.curso}>Curso Git</h3>
+                    <p className={styles.institucion}>Ed team</p>
+               </div>
+            </div>
+
+
+
+            <div data-aos = "fade-up" className={styles.evento}>
+                <div  >
+                    <a className={styles.btn} href="#">see more</a>
+                </div>
+               <div className={styles.texto}>
+                    <time className={styles.fecha}>9 de Septiembre de 2023</time>
+                    <h3 className={styles.curso}>Curso Bootstrap</h3>
+                    <p className={styles.institucion}>Ed team</p>
+               </div>
+            </div>
+
+       
+
+            <div data-aos = "fade-up" className={styles.evento}>
+                <div  >
+                    <a className={styles.btn} href="#">see more</a>
+                </div>
+               <div className={styles.texto}>
+                    <time className={styles.fecha}>31 de Diciembre de 2023</time>
+                    <h3 className={styles.curso}>Algoritmos y E. de Datos Js</h3>
+                    <p className={styles.institucion}>FreeCodeCamp</p>
+               </div>
+            </div>
+
+            <div data-aos = "fade-up" className={styles.evento}>
+                <div  >
+                    <a className={styles.btn} href="#">see more</a>
+                </div>
+               <div className={styles.texto}>
+                    <time className={styles.fecha}>23 de Febrero de 2024</time>
+                    <h3 className={styles.curso}>Master en React</h3>
+                    <p className={styles.institucion}>Udemy</p>
+               </div>
+            </div>
+
+            
+
+
+
+{/*             <div className={styles.evento}>
                 <div className={styles.foto} >
-                    <img src={img2} alt=""/>
+                 
+                   <button>see more</button>
                 </div>
                 <h3 className={styles.fecha}>3 de Febrero de 2021</h3>
             </div>
 
             <div className={styles.evento}>
                 <div className={styles.foto} >
-                    <img src={img3} alt=""/>
+                <button>see more</button>
                 </div>
                 <h3 className={styles.fecha}>3 de Febrero de 2021</h3>
             </div>
-
-            <div className={styles.evento}>
+ */}
+       {/*      <div className={styles.evento}>
                 <div className={styles.foto} >
                     <img src={img4} alt=""/>
                 </div>
@@ -92,7 +197,7 @@ export const Education = () => {
                 </div>
                 <h3 className={styles.fecha}>3 de Febrero de 2021</h3>
             </div>
-           
+            */}
         </div>
 
     </section>

@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <section className={styles.home} id='home'>
       
-        <div className={styles.homeContent}>
+        <div  className={styles.homeContent}>
           <h3>hello, its me</h3>
           <h1>carlos eduardo ortiz</h1>
           <h3>and im a <span className={styles.span}>Frontend developer</span></h3>

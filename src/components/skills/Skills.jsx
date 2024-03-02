@@ -17,57 +17,35 @@ export const Skills = () => {
         <h2 className={styles.heading}>skills<span></span></h2>
 
         <div className={styles.servicesContainer}>
-            <div className={styles.skills}>
-                <img src={htmlImg} alt="" />
+            <div  className={styles.skills}>
+                <img data-aos="fade-up-right" src={htmlImg} alt="" />
                 <h2>html</h2>
             </div>
-            <div className={styles.skills}>
-                <img src={cssImg} alt="" />
+
+            <div  className={styles.skills}>
+                <img data-aos="fade-up" src={cssImg} alt="" />
                 <h2>css</h2>
             </div>
-            <div className={styles.skills}>
-                <img src={jsImg} alt="" />
+
+            <div  className={styles.skills}>
+                <img data-aos="fade-up-left" src={jsImg} alt="" />
                 <h2>js</h2>
             </div>
-            <div className={styles.skills}>
-                <img src={bootstrapImg} alt="" />
+
+            <div  className={styles.skills}>
+                <img data-aos="fade-up-right" src={bootstrapImg} alt="" />
                 <h2>bootstrap</h2>
             </div>
-            <div className={styles.skills}>
-                <img src={reactImg} alt="" />
+
+            <div  className={styles.skills}>
+                <img data-aos="fade-up" src={reactImg} alt="" />
                 <h2>react</h2>
             </div>
-            <div className={styles.skills}>
-                <img src={gitImg} alt="" />
+
+            <div  className={styles.skills}>
+                <img data-aos="fade-up-left" src={gitImg} alt="" />
                 <h2>git</h2>
             </div>
-
-
-            {/* <div className={styles.servicesBox}>
-                <i className="bi bi-code-slash"></i>
-                <h3>web development</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur perferendis quam maiores, ipsam adipisci facere? Incidunt eos, totam iste exercitationem debitis voluptatibus iure in enim.</p>
-                <a href="#" className={styles.btn}>read more</a>
-            </div>
-
-            <div className={styles.servicesBox}>
-            <i className="bi bi-palette-fill"></i>
-                <h3>grafic design</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur perferendis quam maiores, ipsam adipisci facere? Incidunt eos, totam iste exercitationem debitis voluptatibus iure in enim.</p>
-                <a href="#" className={styles.btn}>read more</a>
-            </div>
-
-
-            <div className={styles.servicesBox}>
-                <i className="bi bi-bar-chart-fill"></i>
-                <h3>digital marketing</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur perferendis quam maiores, ipsam adipisci facere? Incidunt eos, totam iste exercitationem debitis voluptatibus iure in enim.</p>
-                <a href="#" className={styles.btn}>read more</a>
-            </div> */}
-
-         
-
-
 
         </div>
 

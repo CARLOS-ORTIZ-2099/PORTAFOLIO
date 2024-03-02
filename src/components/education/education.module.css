@@ -1,3 +1,5 @@
+@import '../../vars.css'; 
+
 .hero {
 	display: flex;
 	align-items: center;
@@ -10,17 +12,19 @@
 .container {
 	width: 90%;
 	max-width: 1200px;
-	margin: 100px auto;
+	margin: 0px auto;
 	display: flex;
 	flex-direction: column;
 	position: relative;
+	/* border: solid green 3px; */
 }
 
+/* la linea vertical divisoria */
 .container::after {
 	content: "";
 	width: 2px;
 	height: 100%;
-	background: #1b3231;
+	background: #178883;
 	position: absolute;
 	top: 0;
 	left: calc(50% - 1px);
@@ -29,12 +33,17 @@
 
 .evento {
 	display: flex;
-	justify-content: space-between;
-	margin-bottom: 200px;
+	justify-content: space-around;
+	margin-bottom: 50px;
 	position: relative;
+	border: solid var(--main-color) 2px;
+	align-items: center;
+	padding: 2rem 0;
 }
 
-.evento::after {
+/* el circulo entre la linea divisoria */
+
+ .evento::after {
 	content: "";
 	display: block;
 	width: 14px;
@@ -48,49 +57,48 @@
 	left: calc(50% - 9px);
 }
 
-.fecha {
-	display: flex;
-	align-items: center;
-	justify-content: start;
-	width: calc(42% + 20px);
-	font-size: 32px;
-	font-weight: normal;
+.btn {
+	display: inline-block;
+	padding: 1rem 2.8rem;
+	background-color: var(--main-color);
+	border-radius: 4rem;
+	box-shadow: 0 0 1rem var(--main-color);
+	font-size: 1.4rem;
+	color: var(--second-bg-color);
+	letter-spacing: .1rem;
+	font-weight: 600;
+	transition: .5s ease;
 }
 
-.foto {
-	width: 42%;
-	border: 10px solid #fff;
-	position: relative;
-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+.fecha,.curso,.institucion {
+	font-size: 20px;
 }
 
-.foto::after {
-	content: "";
-	display: block;
-	border: 20px solid transparent;
-	border-left: 20px solid #fff;
-	position: absolute;
-	right: -50px;
-	top: calc(50% - 20px);
+.texto {
+	/* border: solid blue 1px; */
 }
 
-.foto img {
-	width: 100%;
-	vertical-align: top;
+@media screen and (max-width:700px) {
+
+	.evento {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-around;
+		margin-bottom: 50px;
+		position: relative;
+		/* border: solid red 2px; */
+		align-items: center;
+		padding: 2rem 0;
+	}
+	.texto {
+		/* border: solid blue 1px; */
+		margin-bottom: 1rem;
+	}
+
+	.container::after,
+    .evento::after {
+        display: none; /* Oculta los pseudoelementos en pantallas pequeñas */
+    }
 }
 
-.evento:nth-child(even) {
-	flex-direction: row-reverse;
-}
-
-.evento:nth-child(even) .fecha {
-	justify-content: end;
-}
-
-.evento:nth-child(even) .foto::after {
-	content: "";
-	border: 20px solid transparent;
-	border-right: 20px solid #fff;
-	right: initial;
-	left: -50px;
-}
