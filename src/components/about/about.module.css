@@ -29,6 +29,7 @@ span{
 
 .aboutImg img {
     width: 35vw;
+    border-radius: 49% 51% 47% 53% / 51% 50% 50% 49%  ;
 }
 
 .heading {

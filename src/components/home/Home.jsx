@@ -5,6 +5,7 @@ import avatar from '../../assets/images/home.png'
 export const Home = () => {
   return (
     <section className={styles.home} id='home'>
+      
         <div className={styles.homeContent}>
           <h3>hello, its me</h3>
           <h1>carlos eduardo ortiz</h1>

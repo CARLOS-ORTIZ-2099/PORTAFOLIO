@@ -8,6 +8,13 @@
   color: var(--color-text);
 }
 
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+
 section {
   padding: 10rem 3% 2rem;
 }

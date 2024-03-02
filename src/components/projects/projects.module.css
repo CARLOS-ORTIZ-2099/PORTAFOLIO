@@ -16,8 +16,8 @@
 
 .portfolioContainer {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
+    grid-template-columns: repeat(4,minmax(250px, 1fr));
+    /* align-items: center; */
     gap: 2.5rem;
 }
 
@@ -27,7 +27,6 @@
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
-    border: solid green 2px;
 }
 
 .portfolioBox img {
@@ -66,7 +65,20 @@
 .portfolioLayer h4 {
     font-size: 3rem;
 }
+.portfolioLayer .links {
+   /*  border: solid red; */
+    margin-top: 15px;
+}
 
+.portfolioLayer .links a {
+    margin: 0 10px;
+    transition: all .5s ease-in-out;
+}
+
+.portfolioLayer .links a:hover {
+    background-color: var(--main-color);
+    transition: all .5s ease-in-out ;
+}
 
 .portfolioLayer p {
     font-size: 1.6rem;

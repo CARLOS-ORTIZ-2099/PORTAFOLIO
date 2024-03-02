@@ -1,5 +1,5 @@
 import styles from './about.module.css'
-import imageAbout from '../../assets/images/about.png'
+import imageAbout from '../../assets/about.jpg'
 
 export const About = () => {
   return (
@@ -13,7 +13,7 @@ export const About = () => {
             <h2 className={styles.Heading}>About <span>Me</span></h2>
             <h3>frontend developer</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate soluta, delectus harum, animi voluptates corporis aspernatur voluptate laborum reiciendis autem eveniet nesciunt doloremque aperiam magnam ipsa possimus, nobis hic repellendus est nam a nemo suscipit ab eos? Aliquid labore qui ullam eveniet accusamus autem dolores commodi.</p>
-            <a href="#" className={styles.btn}>read more</a>
+           {/*  <a href="#" className={styles.btn}>read more</a> */}
         </div>
 
     </section>
