@@ -15,7 +15,7 @@ export const Home = () => {
           </p>
           <div className={styles.socialMedia}>
             <a href="#"><i className="bi bi-linkedin"></i></a>
-            <a href="#"><i className="bi bi-github"></i></a>
+            <a href="https://github.com/CARLOS-ORTIZ-2099" target="blank"><i className="bi bi-github"></i></a>
           </div>
 
           <a href="#" className={styles.btn}>download cv</a>

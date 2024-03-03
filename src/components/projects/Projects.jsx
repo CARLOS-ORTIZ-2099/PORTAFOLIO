@@ -23,9 +23,10 @@ export const Projects = () => {
                 <div className={styles.portfolioLayer}>
                   <h4>app music</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, qui?</p>
+                  <h4>stack : html, css, js</h4>
                   <div className={styles.links}>
                   <a href="https://app-music-nu.vercel.app/" target="blank"><i className="bi bi-box-arrow-up-right"></i></a>
-                  <a href="#"><i className="bi bi-github"></i></a>
+                  <a href="https://github.com/CARLOS-ORTIZ-2099/app-music/tree/dev" target="blank"><i className="bi bi-github"></i></a>
                   </div>
                 </div>
             </div>
@@ -35,9 +36,10 @@ export const Projects = () => {
                 <div className={styles.portfolioLayer}>
                   <h4>calculator</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, qui?</p>
+                  <h4>stack : html, css, js</h4>
                   <div className={styles.links}>
                     <a href="https://calculator-js-nu.vercel.app/" target="blank"><i className="bi bi-box-arrow-up-right"></i></a>
-                    <a href="#"><i className="bi bi-github"></i></a>
+                    <a href="https://github.com/CARLOS-ORTIZ-2099/calculator-js/tree/dev" target="blank"><i className="bi bi-github"></i></a>
                   </div>
                 </div>
             </div>
@@ -47,9 +49,10 @@ export const Projects = () => {
                 <div className={styles.portfolioLayer}>
                   <h4>ip address tracker</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, qui?</p>
+                  <h4>stack : html, css, js</h4>
                   <div className={styles.links}>
                     <a href="https://ip-address-tracker-master-drab.vercel.app/" target="blank"><i className="bi bi-box-arrow-up-right"></i></a>
-                    <a href="#"><i className="bi bi-github"></i></a>
+                    <a href="https://github.com/CARLOS-ORTIZ-2099/ip-address-tracker-master/tree/dev" target="blank"><i className="bi bi-github"></i></a>
                   </div>
                 </div>
             </div>
@@ -59,9 +62,10 @@ export const Projects = () => {
                 <div className={styles.portfolioLayer}>
                   <h4>todo app drag drop</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, qui?</p>
+                  <h4>stack : html, css, js</h4>
                   <div className={styles.links}>
                     <a href="https://todo-app-main-sandy.vercel.app/" target="blank"><i className="bi bi-box-arrow-up-right"></i></a>
-                    <a href="#"><i className="bi bi-github"></i></a>
+                    <a href="https://github.com/CARLOS-ORTIZ-2099/todo-app-main/tree/dev" target="blank"><i className="bi bi-github"></i></a>
                   </div>
                 </div>
             </div>
@@ -71,9 +75,10 @@ export const Projects = () => {
                 <div className={styles.portfolioLayer}>
                   <h4>calculator age</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, qui?</p>
+                  <h4>stack : react, css</h4>
                   <div className={styles.links}>
                     <a href="https://calculator-age-navy.vercel.app/" target="blank"><i className="bi bi-box-arrow-up-right"></i></a>
-                    <a href="#"><i className="bi bi-github"></i></a>
+                    <a href="https://github.com/CARLOS-ORTIZ-2099/calculator-age/tree/dev" target="blank"><i className="bi bi-github"></i></a>
                   </div>
                 </div>
             </div>
@@ -83,9 +88,10 @@ export const Projects = () => {
                 <div className={styles.portfolioLayer}>
                   <h4>search movies</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, qui?</p>
+                  <h4>stack : react, css</h4>
                   <div className={styles.links}>
                     <a href="https://search-movies-blancmange-9d114-movies.netlify.app/"  target="blank"><i className="bi bi-box-arrow-up-right"></i></a>
-                    <a href="#"><i className="bi bi-github"></i></a>
+                    <a href="https://github.com/CARLOS-ORTIZ-2099/search-movies/tree/dev" target="blank"><i className="bi bi-github"></i></a>
                   </div>
                 </div>
             </div>
@@ -95,9 +101,10 @@ export const Projects = () => {
                 <div className={styles.portfolioLayer}>
                   <h4>countries app</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, qui?</p>
+                  <h4>stack : react, css</h4>
                   <div className={styles.links}>
                     <a href="https://countries-app-hummingbird-4995dd.netlify.app/"  target="blank"><i className="bi bi-box-arrow-up-right"></i></a>
-                    <a href="#"><i className="bi bi-github"></i></a>
+                    <a href="https://github.com/CARLOS-ORTIZ-2099/countries-app/tree/dev" target="blank"><i className="bi bi-github"></i></a>
                   </div>
                 </div>
             </div>
@@ -107,9 +114,10 @@ export const Projects = () => {
                 <div className={styles.portfolioLayer}>
                   <h4>ecommerce products</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, qui?</p>
+                  <h4>stack : react, css, bootstrap</h4>
                   <div className={styles.links}>
                     <a href="https://ecommerce-tarsier-57cfed.netlify.app/"  target="blank"><i className="bi bi-box-arrow-up-right"></i></a>
-                    <a href="#"><i className="bi bi-github"></i></a>
+                    <a href="https://github.com/CARLOS-ORTIZ-2099/ecommerce-products/tree/dev" target="blank"><i className="bi bi-github"></i></a>
                   </div>
                 </div>
             </div>
@@ -119,9 +127,10 @@ export const Projects = () => {
                 <div className={styles.portfolioLayer}>
                   <h4>chat simulator</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, qui?</p>
+                  <h4>stack : react, css, bootstrap, firebase</h4>
                   <div className={styles.links}>
                     <a href="https://chat-group-568053.netlify.app/"  target="blank"><i className="bi bi-box-arrow-up-right"></i></a>
-                    <a href="#"><i className="bi bi-github"></i></a>
+                    <a href="https://github.com/CARLOS-ORTIZ-2099/chat-group/tree/dev" target="blank"><i className="bi bi-github"></i></a>
                   </div>
                 </div>
             </div>
