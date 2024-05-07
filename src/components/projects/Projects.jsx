@@ -116,7 +116,7 @@ export const Projects = () => {
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, qui?</p>
                   <h4>stack : react, css, bootstrap</h4>
                   <div className={styles.links}>
-                    <a href="https://ecommerce-tarsier-57cfed.netlify.app/"  target="blank"><i className="bi bi-box-arrow-up-right"></i></a>
+                    <a href="https://kataifi-ecommerce-8f8297.netlify.app/"  target="blank"><i className="bi bi-box-arrow-up-right"></i></a>
                     <a href="https://github.com/CARLOS-ORTIZ-2099/ecommerce-products/tree/dev" target="blank"><i className="bi bi-github"></i></a>
                   </div>
                 </div>
